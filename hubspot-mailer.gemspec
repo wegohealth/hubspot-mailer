@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<hubspot-ruby>.freeze, ["~> 0.4"])
-    s.add_dependency(%q<actionmailer>.freeze, ["~> 5.1"])
+    s.add_dependency(%q<actionmailer>.freeze, ["> 5.1"])
     s.add_dependency(%q<bundler>.freeze, ["~> 1.0"])
   end
 end
